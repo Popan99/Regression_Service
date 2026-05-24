@@ -23,11 +23,14 @@
 | Обработка данных | Pandas (3.0.3), Joblib (1.5.3)                 |
 | Контейнеризация| Docker       
 
-## Cтруктура проекта
+## Структура проекта
+
+```
 Regression_Service/
 ├── app.py                     # Главный файл FastAPI (эндпоинты, загрузка модели)
 ├── requirements.txt           # Зависимости Python (точные версии)
 ├── Dockerfile                 # Инструкция для сборки Docker-образа
 ├── models/                    # Папка с предобученной моделью
 │   └── model_pipeline.joblib  # Пайплайн (PolynomialFeatures + StandardScaler + XGBoost)
-└── README.md                  # Этот файл                                   |
+└── README.md                  # Этот файл
+```                              |
