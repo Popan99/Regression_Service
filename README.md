@@ -33,4 +33,4 @@ Regression_Service/
 ├── models/                    # Папка с предобученной моделью
 │   └── model_pipeline.joblib  # Пайплайн (PolynomialFeatures + StandardScaler + XGBoost)
 └── README.md                  # Этот файл
-```                              |
+```                              
